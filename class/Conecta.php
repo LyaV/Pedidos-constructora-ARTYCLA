@@ -4,7 +4,7 @@
 	{
 		public static function Con()
 		{
-			$con = mysql_connect("mistablas.db.11435666.hostedresource.com","mistablas","ContrSeg27#");
+			$con = mysql_connect("mistablas.db.11435666.hostedresource.com","mistablas","contrasenia");
 			if(!$con)
 			{
 				//header("Location: include/error_bd.php");	
